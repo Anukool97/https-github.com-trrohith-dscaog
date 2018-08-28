@@ -12,7 +12,7 @@ express.use(bodyParser.urlencoded({ extended: true }));
 
 express.set('port', (process.env.PORT || 1911))
 express.get('/', function(req,res){
-  res.send('Hello world, I am a chat bot for Aarush');
+  res.send('Hello world, I am a chat bot for Workshop');
 })
 
 express.post('/googlewebhook/', function (request, response) {
